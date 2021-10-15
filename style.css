@@ -1,38 +1,21 @@
-.Nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    margin-right: 297px;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
-
-  .caption{
+ .caption{
       padding-left: 100px;
   }
 
-  .title{
-    list-style-type: none;
+  .Navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
   }
 
-  .title-item{
-    float: left;
-    margin-left: 60px;
-    margin-right: 630px;
+  .Navbar > div{
+  line-height: 50px;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
   }
+
+  .Navbar > div > a{
+    text-decoration: none;
+    color: white;
+    }
